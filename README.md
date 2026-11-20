@@ -1,49 +1,36 @@
 # Population genomic diversity of Dyckia across Brazilian ironstone outcrops
 
-Supplementary materials and custom analysis resources accompanying the study by João Victor da Silva Rabelo-Araujo and coauthors, also included as a chapter of the author's doctoral thesis.
-
-## Repository status
-
-This repository is being assembled for the thesis and manuscript. It is not yet a final data release. The supplementary index distinguishes deposited materials from files still being curated. A versioned release will identify the files supporting a particular manuscript or thesis version.
-
-## Study
-
-The manuscript examines genetic diversity, differentiation, population structure and genotype-environment associations in *Dyckia* from ironstone outcrops of the Iron Quadrangle, Minas Gerais, Brazil. The two datasets comprise 53 individuals from six sampling localities in *D. consimilis*-CONG and 57 individuals from eight localities in *D. rariflora*-*D. elata*-like.
-
-CONG is the display name of the population previously designated VIGA. Historical file and dataset identifiers may retain `VIGA` or `consimilis_viga`; this does not indicate an additional population.
+Supplementary materials accompanying the study by Joao Victor da Silva Rabelo-Araujo and coauthors, also included in the author's doctoral thesis.
 
 ## Supplementary materials
 
-See [the supplementary index](supplementary/README.md) for descriptions, availability and version status. Numbering follows the manuscript reviewed on 20 November 2026:
+**[Open the supplementary materials](supplementary/README.md)**
 
-- Figure S1: ADMIXTURE cross-validation in the two datasets.
-- Figure S2: ancestry cross-entropy used to guide LFMM2 latent-factor selection.
-- Figure S3: LFMM2 calibrated p-value histograms and quantile-quantile plots.
-- Table S1: geographic and taxonomic sampling information.
-- Table S2: AMOVA.
-- Table S3: environmental predictors and LFMM2 settings.
-- Table S4: LFMM2 candidate SNPs and associated environmental predictors. Genomic annotations will be documented separately or incorporated into the final table after reconciliation.
+| Material | Description | File |
+| --- | --- | --- |
+| Figure S1 | ADMIXTURE cross-validation | [PDF](supplementary/Figure_S1.pdf) |
+| Figure S2 | Ancestry cross-entropy profiles | [PDF with legend](supplementary/FIG_S2.pdf) |
+| Figure S3 | LFMM2 calibrated p-value histograms and Q-Q plots | [PDF with legend; two pages](supplementary/FIG_S3.pdf) |
+| Tables S1-S4 | Sampling information, AMOVA, environmental settings and LFMM2 candidate SNPs | [Excel workbook](supplementary/SUPLEMENTAR.xlsx) |
 
-## Custom scripts and reproducibility
+The repository contains supplementary figures and tables cited in the manuscript. Custom analysis scripts are not included. The workbook is the author-supplied revision deposited on 20 November 2026. File updates remain traceable through GitHub's commit history.
 
-See [the scripts index](scripts/README.md). The intended deposit includes executed analytical scripts, final presentation scripts, input descriptions, software versions, random seeds and sample/locus naming conventions. Original analysis executors will be distinguished from subsequent plotting revisions.
+## Study and naming
 
-Third-party software, raw sequencing reads and the reference genome are not duplicated in Git history. Final genotype-panel availability will be documented separately.
+The study examines genetic diversity, differentiation, population structure and genotype-environment associations in *Dyckia* from ironstone outcrops of the Iron Quadrangle, Minas Gerais, Brazil. The two datasets are designated *D. consimilis*-CONG and *D. rariflora*-*D. elata*-like.
+
+CONG corresponds to the locality previously designated VIGA. Some historical dataset labels and workbook text retain VIGA; this does not indicate an additional locality. See the supplementary index for file descriptions and the source of the elevation estimates in Table S1.
 
 ## Data access
 
-- Raw ddGBS reads: NCBI SRA BioProject [PRJNA1549813](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1549813).
-- *D. consimilis* reference genome: ENA project [PRJEB128484](https://www.ebi.ac.uk/ena/browser/view/PRJEB128484).
+- Raw ddGBS reads: NCBI SRA BioProject [PRJNA1549813](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1549813), as reported in the manuscript.
+- *D. consimilis* reference genome: ENA project [PRJEB128484](https://www.ebi.ac.uk/ena/browser/view/PRJEB128484), as reported in the manuscript.
 - Environmental predictors: WorldClim v2.1, as described in the manuscript.
 
 ## Manuscript and thesis
 
-The full study is included in the doctoral thesis. The permanent thesis link and any public manuscript or article link will be added when available. The current editable manuscript, reviewer comments and working drafts are not part of this initial deposit.
-
-## Citation and versioning
-
-Versioned releases, citation metadata and licensing information will be added with the completed deposit. No DOI or final release is claimed at this stage.
+The full study is included in the doctoral thesis. A permanent thesis or article link can be added when available. Editable manuscript drafts and reviewer comments are not included in this deposit.
 
 ## AI assistance
 
-Some custom scripts, figure-layout revisions and repository documentation were developed or organized with assistance from OpenAI Codex. Scientific interpretation, selection of deposited versions and validation remain the authors' responsibility. AI-assisted layout revisions are distinct from original analytical executions.
+Figure-layout revisions and repository documentation were prepared with assistance from OpenAI Codex. Scientific interpretation and validation remain the authors' responsibility.
