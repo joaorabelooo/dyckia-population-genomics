@@ -1,21 +1,31 @@
 # Supplementary materials
 
-Numbering follows the population-genomics manuscript reviewed on 20 November 2026. This deposit is being assembled; pending items are identified explicitly.
+Supplementary materials accompanying **Population genomic diversity of Dyckia across Brazilian ironstone outcrops**, by Joao Victor da Silva Rabelo-Araujo and coauthors, also included in the author's doctoral thesis.
 
-| Item | Description | Status |
+## Files
+
+| Item | Contents | Download |
 | --- | --- | --- |
-| Figure S1 | ADMIXTURE cross-validation for both datasets | [Combined PDF](Figure_S1.pdf) |
-| Figure S2 | Ancestry cross-entropy for LFMM2 latent-factor selection | Final panel assembly and labels to be checked |
-| Figure S3 | LFMM2 calibrated p-value histograms and Q-Q plots | Existing diagnostics require updated numbering |
-| Table S1 | Sampling localities, coordinates, elevation, taxonomic assignments and sample sizes | Final workbook version and sample counts to be checked |
-| Table S2 | AMOVA | Final workbook version to be checked |
-| Table S3 | Environmental predictors and LFMM2 settings | Final workbook version to be checked |
-| Table S4 | LFMM2 candidate SNPs and associated environmental predictors | Final workbook version to be checked; genomic annotations require a separate table or an expanded final version |
+| Figure S1 | ADMIXTURE cross-validation for both datasets | [PDF](Figure_S1.pdf) |
+| Figure S2 | Ancestry cross-entropy profiles for both datasets | [PDF with legend](FIG_S2.pdf) |
+| Figure S3 | Genomic-control-calibrated LFMM2 p-value histograms and Q-Q plots | [PDF with legend; two pages](FIG_S3.pdf) |
+| Tables S1-S4 | Supplementary tables in four workbook sheets | [SUPLEMENTAR.xlsx](SUPLEMENTAR.xlsx) |
 
-## Figure S1 legend
+## Supplementary tables
 
-**Figure S1. ADMIXTURE cross-validation in the two *Dyckia* datasets.** (a) *D. consimilis*-CONG; (b) *D. rariflora*-*D. elata*-like. Points show mean tenfold cross-validation error across independent runs, and vertical bars indicate one standard deviation above and below the mean. Five runs per K were performed during initial screening, with 20 runs for selected K values. Orange points mark the lowest mean cross-validation error in each dataset: K = 2 in (a) (CV = 0.5643) and K = 3 in (b) (CV = 0.5717). Lines connect successive K values.
+- **Table S1:** Geographic and taxonomic information, coordinates, elevation and sample sizes.
+- **Table S2:** Analysis of molecular variance (AMOVA).
+- **Table S3:** Environmental predictor selection and LFMM2 settings.
+- **Table S4:** LFMM2 candidate SNPs and their associated environmental predictors.
 
-## Naming
+The workbook is the author-supplied revision deposited on 20 November 2026. It is supplied without changing its contents. CONG corresponds to VIGA in historical dataset labels and in some retained workbook text; these names do not denote different localities.
 
-CONG corresponds to VIGA in historical analysis identifiers. Figure numbering applies to this population-genomics manuscript and is independent of the supplements in the separate dyckia-phylogeny repository.
+The elevation values added to Table S1 were estimated at the listed coordinates using the approximately 30 m SRTM dataset through the [Open Topo Data API](https://www.opentopodata.org/datasets/srtm/), with bilinear interpolation. They are model-derived estimates, not field measurements. These table values should be distinguished from the WorldClim elevation layer used in the environmental analyses described in the manuscript.
+
+## Figure legends
+
+The PDF files include their figure legends. Figure S2 preserves the exported sNMF cross-entropy profiles; the choice of latent factors for LFMM2 is described in the manuscript. Figure S3 is presented on two pages, with panels a-b for D. consimilis-CONG and c-d for D. rariflora-D. elata-like.
+
+## Scope
+
+This deposit contains the supplementary tables and figures cited in the manuscript. Custom analysis scripts are not included. Raw sequencing reads and the reference genome are accessed through the archives linked from the repository's main README.
